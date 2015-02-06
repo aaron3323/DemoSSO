@@ -2,20 +2,15 @@ package com.demo.subsystem.demo.mapper;
 
 import java.io.Serializable;
 
-public class Orders implements Serializable {
+import com.demo.subsystem.common.BaseEntity;
+
+public class Orders extends BaseEntity {
 	private static final long serialVersionUID = 8586054465638301060L;
 
-	private String id;
 	private String name;
 	private String userId;
 	private User user;
 	
-	public String getId() {
-		return id;
-	}
-	public void setId(String id) {
-		this.id = id;
-	}
 	public String getName() {
 		return name;
 	}

@@ -1,3 +1,25 @@
+http://www.oschina.net/news/51732/7-things-you-need-to-stop-doing-to-be-more-productive
+
+http://www.oschina.net/code/snippet_98890_27478
+http://www.oschina.net/question/12_138511
+http://my.oschina.net/noahxiao/blog/185419
+https://github.com/waylau/spring-framework-4-reference
+http://my.oschina.net/u/1791256/blog/283064
+http://my.oschina.net/apdplat/blog/312609
+http://my.oschina.net/u/1404252/blog/326949
+http://my.oschina.net/gschen/blog/345255
+http://my.oschina.net/cloudcoder/blog/352266
+http://my.oschina.net/liuzeli/blog/351280
+http://my.oschina.net/u/2245444/blog/348855
+http://www.oschina.net/code/snippet_1993928_44076
+http://www.oschina.net/code/snippet_933144_43790
+http://my.oschina.net/feichexia/blog/326893
+http://www.oschina.net/code/snippet_103809_43177
+http://www.oschina.net/code/snippet_1258171_43096
+http://www.oschina.net/question/59889_44927
+http://www.oschina.net/code/snippet_436266_39201
+redis-search4j
+FatJAR
 后台管理在线用户数，websocket实现
 websocket图表
 pagehelper
@@ -9,12 +31,45 @@ Spring Integration
 Spring Web Services
 spring-loaded
 java to rpm
+jaspereports
 表单验证
 tomcat session复制
 启动信息：Set web app root system property: 'webapp.root'
 第三方应用授权
 Hawt IO
 跨数据库查询
+flume
+redis分布式锁
+zookeeper
+mysql ssl
+esb
+http://my.oschina.net/twosnail/blog/364380
+http://www.oschina.net/code/snippet_1016427_45116
+velocity
+HAProxy
+Memory Analyzer
+http://my.oschina.net/cloudcoder/blog/359598
+java.util.concurrent.atomic
+fastjson
+http://www.oschina.net/question/3270_20441
+http://www.oschina.net/code/snippet_1258171_39049
+http://www.oschina.net/code/snippet_103999_7671
+http://www.oschina.net/code/snippet_1772028_38414
+http://www.oschina.net/question/54100_35417
+lvs
+http://www.oschina.net/translate/spring-java-configuration-session-timeout
+http://www.oschina.net/translate/continuous-delivery-maturity-model
+http://my.oschina.net/huangyong/blog/265015
+http://my.oschina.net/wenhaowu/blog/224295
+可视化库
+http://www.oschina.net/news/48031/nice-validator-0-7-0
+http://www.oschina.net/news/47588/2013-top-10-java-projects
+持续构建、持续集成
+http://www.oschina.net/translate/10-things-to-know-about-memory-mapped-file-in-java
+http://my.oschina.net/u/142836/blog/170179#OSC_h4_4
+
+
+
 
 
 如果数据库中的资源出现的变化，需要刷新内存中已加载的资源信息时，使用下面代码：

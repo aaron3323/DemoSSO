@@ -3,15 +3,15 @@ package com.demo.subsystem.demo.mapper;
 import java.io.Serializable;
 import java.util.List;
 
+import com.demo.subsystem.common.BaseEntity;
+
 /** 
  * <p>Copyright: All Rights Reserved</p>  
  * <p>Description: 实体类--表 </p> 
  * <p>Author:aaron</p>
  */
-public class User implements Serializable {
+public class User extends BaseEntity {
 	private static final long serialVersionUID = 5414853814315511374L;
-
-	private String id;
 
     private String username;
 
@@ -24,14 +24,6 @@ public class User implements Serializable {
     private Dept dept;
     
     private List<Orders> ordersList;
-
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id == null ? null : id.trim();
-    }
 
     public String getUsername() {
         return username;

@@ -9,7 +9,7 @@ import org.springframework.context.ApplicationContextAware;
 /** 
  * <p>Copyright: All Rights Reserved</p>  
  * <p>Description: 获取spring注入的bean </p> 
- * <p>使用方式： <bean class="com.demo.subsystem.common.ApplicationContextHolder" /></p>
+ * <p>配置方法： <bean class="com.demo.subsystem.common.ApplicationContextHolder" /></p>
  * <p>使用方式： ApplicationContextHolder.getBean("MainServiceImpl")</p>
  * <p>Author:aaron</p>
  */
@@ -30,6 +30,10 @@ public class ApplicationContextHolder implements ApplicationContextAware {
         if(applicationContext == null)
             throw new IllegalStateException("'applicationContext' property is null,ApplicationContextHolder not yet init.");
         return applicationContext;
+    }
+    
+    public static boolean containsBeanDefinition(String beanName) {
+        return getApplicationContext().containsBeanDefinition(beanName);
     }
      
     public static Object getBean(String beanName) {
